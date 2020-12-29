@@ -1,0 +1,18 @@
+#aboutme-container{
+    height: 100vh;
+    overflow-y: auto;
+}
+.para{
+    padding: 4rem 1.5rem 0.5rem 4rem;
+    max-width: 50rem;
+}
+.language-section{
+    padding: 1rem 1.5rem 0.5rem 4rem;
+}
+.tools-framework-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 1.5rem 0.5rem 3.5rem;
+    max-width: 50rem;
+
+}

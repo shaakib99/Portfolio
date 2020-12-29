@@ -1,0 +1,8 @@
+.skill-container{
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    margin: 0.5rem 0.4rem 0.5rem 0.4rem ;
+    border-radius: 999999px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

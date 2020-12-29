@@ -1,0 +1,27 @@
+#theme-change-content-container{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 999999px;
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slider{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(233, 232, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    /* transform: translateX(-100%); */
+}
+#nightSpan{
+    opacity: 0;
+}
+#daySpan{
+    opacity: 0;
+}

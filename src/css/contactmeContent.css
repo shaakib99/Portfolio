@@ -1,0 +1,41 @@
+#contact-me-content-container{
+    width: 100%;
+    height: 100%;
+}
+#contact-me-content-container form{
+    max-width: 50rem;
+    padding: 4rem 3rem 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+#contact-me-content-container input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    outline: none;
+    margin: 1rem 0 1rem 0;
+    background-color: transparent;
+    font-family: 'poppins';
+}
+#contact-me-content-container textarea{
+    width: 25rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 0 0.5rem;
+    outline: none;
+    margin: 1rem 0 1rem 0;
+    background-color: transparent;
+    font-family: 'poppins';
+}
+#message{
+    height: 5rem;
+}
+button{
+    height: 2.5rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-family: 'poppins';
+    cursor: pointer;
+}
