@@ -5,6 +5,7 @@ import {useHistory} from 'react-router-dom'
 import {gsap} from 'gsap'
 const SideBarContent = (props) => {
     const history = useHistory()
+    const driveLink = 'https://drive.google.com/u/0/uc?id=1rapt7vitBYZcUw4qdSNvD1fwY--utcZA&export=download'
     const theme = props.theme.theme
     const urls = ['/Portfolio','/Portfolio/experience','/Portfolio/projects','/Portfolio/contact']
     const [urlIndex, setUrlIndex] = React.useState(urls.findIndex((u)=> u === props.url))
@@ -30,6 +31,7 @@ const SideBarContent = (props) => {
         {title: 'Experience', onClick: ()=>{history.replace('/Portfolio/experience')}},
         {title: 'Projects', onClick: ()=>{history.replace('/Portfolio/projects')}},
         {title: 'Contact me', onClick: ()=>{history.push('/Portfolio/contact')}},
+        {title: 'Download Resume', onClick: ()=>{window.open(driveLink)}},
         // {title: 'Download Resume', onClick: ()=>{setUrlIndex(3)}},
     ]
     const socialButtons = [
